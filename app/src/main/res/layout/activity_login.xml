@@ -8,7 +8,7 @@
     tools:ignore="MissingConstraints">
 
     <ImageView
-        android:id="@+id/IMlogo"
+        android:id="@+id/IVlogo_login"
         android:layout_width="148dp"
         android:layout_height="275dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/starpify_logo" />
 
     <TextView
-        android:id="@+id/TVlogoName"
+        android:id="@+id/TVappName_login"
         android:layout_width="222dp"
         android:layout_height="92dp"
         android:fontFamily="@font/alfa_slab_one"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.121" />
 
     <TextView
-        android:id="@+id/TVregisterText"
+        android:id="@+id/TVloginText"
         android:layout_width="315dp"
         android:layout_height="85dp"
         android:fontFamily="@font/abyssinica_sil"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.266" />
 
     <ImageView
-        android:id="@+id/IMuserIcon"
+        android:id="@+id/IVuserIcon"
         android:layout_width="92dp"
         android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toEndOf="@+id/IMuserIcon"
+        app:layout_constraintStart_toEndOf="@+id/IVuserIcon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4" />
 
@@ -98,7 +98,6 @@
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/IVpwdicon"
         app:layout_constraintTop_toTopOf="parent" />
 
