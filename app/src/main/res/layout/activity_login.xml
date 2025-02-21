@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/IMlogo"
+        android:layout_width="148dp"
+        android:layout_height="275dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/starpify_logo" />
+
+    <TextView
+        android:id="@+id/TVlogoName"
+        android:layout_width="222dp"
+        android:layout_height="92dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/TVregisterText"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/register_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <ImageView
+        android:id="@+id/IMuserIcon"
+        android:layout_width="92dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        app:srcCompat="@drawable/user_icon" />
+
+    <EditText
+        android:id="@+id/IPuserInput"
+        android:layout_width="261dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toEndOf="@+id/IMuserIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/IVpwdicon"
+        android:layout_width="69dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/key_icon" />
+
+    <EditText
+        android:id="@+id/IPpassword"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/IVpwdicon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/BTlogin"
+        android:layout_width="292dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/login_button"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/TVrecoverpswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/recovery_password"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <Button
+        android:id="@+id/BTgoogleLogin"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/google_login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="5dp"
+        app:icon="@drawable/google_icon"
+        app:iconSize="30dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889"
+        app:strokeColor="@color/pink"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/TVnoAccountText"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/no_account"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <TextView
+        android:id="@+id/TVregister"
+        android:layout_width="135dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/regist_here"
+        android:textAlignment="textStart"
+        android:textColor="@color/cyan"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Starpify</string>
+    <string name="my_name">David Vera Torres</string>
+    <string name="register">Regístrate</string>
+    <string name="register_text">La aventura está por iniciar, por favor inicia Sesión</string>
+    <string name="legend_text">Inicia una nueva aventura con Starpify y descubre una nueva forma de ver el mundo</string>
+    <string name="begin_button">Comienza</string>
+    <string name="login_button">ingresar</string>
+    <string name="google_login">Ingresa con Google</string>
+    <string name="recovery_password">Recupera tu contraseña</string>
+    <string name="no_account">No tienes cuenta ? </string>
+    <string name="regist_here">Regístrate</string>
+
+</resources>
