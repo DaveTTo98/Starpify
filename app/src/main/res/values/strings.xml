@@ -10,5 +10,12 @@
     <string name="recovery_password">Recupera tu contraseña</string>
     <string name="no_account">No tienes cuenta ? </string>
     <string name="regist_here">Regístrate</string>
+    <string name="reg_description">Completa los campos para registrarte</string>
+    <string name="terms">Al registrarte aceptas los términos y condiciones</string>
+    <string name="send_recovery">Enviar</string>
+    <string name="alredy_account">¿ya tienes una cuenta?</string>
+    <string name="login_text">Inicia Sesión</string>
+    <string name="recovery_legend">Escríbe tu correo electrónico y recupera tu contraseña</string>
+    <string name="edit_info_user">Editar Datos</string>
 
 </resources>
